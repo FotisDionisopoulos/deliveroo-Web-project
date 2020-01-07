@@ -124,7 +124,7 @@ $dest_del = substr($dest_del, 0, -1);
 
 ini_set('max_execution_time', 300);
 
-$url2 = "https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=$epil_kat&destinations=$dest_del&key=AIzaSyCIA_hzAcghVGcuNn3p0Fy6w9nQL56zuEc";
+$url2 = "https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=$epil_kat&destinations=$dest_del&key=USE_YOUR_KEY_HERE";
 echo '222';
 $matrix = json_decode(file_get_contents($url2), true);
 
