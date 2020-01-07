@@ -1,0 +1,43 @@
+<xml>
+	<header>
+		<transaction>
+			<period month="1" year="1"/>
+		</transaction>
+	</header>
+	<body>
+		<employees>
+			<employee>
+				<firstName>man1</firstName>
+				<lastName>manager1</lastName>
+				<amka>234</amka>
+				<afm>123123</afm>
+				<iban>123123123</iban>
+				<ammount>800</ammount>
+			</employee>
+			<employee>
+				<firstName>man2</firstName>
+				<lastName>manager2</lastName>
+				<amka>212434</amka>
+				<afm>12423123</afm>
+				<iban>5671231123</iban>
+				<ammount>800</ammount>
+			</employee>
+			<employee>
+				<firstName>giorgos</firstName>
+				<lastName>Abcdef</lastName>
+				<amka>29118523654</amka>
+				<afm>1234567891</afm>
+				<iban>GR4648923784034423478422984</iban>
+				<ammount>0</ammount>
+			</employee>
+			<employee>
+				<firstName>Paulos</firstName>
+				<lastName>Qwerty</lastName>
+				<amka>40218523654</amka>
+				<afm>9999567891</afm>
+				<iban>FR464892344444423478422984</iban>
+				<ammount>0</ammount>
+			</employee>
+		</employees>
+	</body>
+</xml>
