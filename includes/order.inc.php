@@ -30,7 +30,7 @@ echo "ddd";
 $katastimata = substr($katastimata, 0, -1);
 $pelatis =  $_POST['location']['lat'].','.$_POST['location']['lng'];
 
-    $url = "https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=$pelatis&destinations=$katastimata&key=AIzaSyCIA_hzAcghVGcuNn3p0Fy6w9nQL56zuEc";
+    $url = "https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=$pelatis&destinations=$katastimata&key=API_KEY";
 $matrix = json_decode(file_get_contents($url), true);
 echo ($url);
 
